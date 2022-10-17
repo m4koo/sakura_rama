@@ -12,6 +12,12 @@ body{
     color: white;
 }
 
+#order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* NAVBAR */
 
@@ -89,4 +95,30 @@ h1{
 
 .subtext{
     font-size: 2em;
+}
+
+/* HOW TO ORDER */
+
+#order h2{
+    color: rgb(180, 0, 0);
+    font-size: 5em;
+}
+
+#instructions{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#instructions div{
+    max-width: 200px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+#instructions div p{
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
 }
