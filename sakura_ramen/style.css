@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* SECTIONS */
+
+#start-page{
+    height: 100vh;
+    background: url(./img/bgr1.jpg) no-repeat bottom;
+    background-size: cover;
+    color: white;
+}
+
+
+/* NAVBAR */
+
+nav{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#sakura-logo{
+    height: 90px;
+    width: 90px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+}
+#links a{
+    padding-right:4rem;
+}
+#links a:hover{
+    text-decoration: underline;
+    color: rgb(168, 167, 167);
+}
+
+#telephone-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(180, 0, 0);
+    /* padding-right: 0 !important; */
+    cursor: pointer;
+    padding: 10px !important;
+    border-radius: 10px; 
+    border: 2px solid transparent;
+}
+
+#telephone-button:hover{
+    color: white !important;
+    background: rgb(35, 184, 47);
+    transition: all .8s ease;
+    border: 2px solid white; 
+}
+
+#tel-logo{
+    width: 25px;
+    height: 25px;
+}
+
+
+/* HEADER */
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 8em;
+    margin: 0;
+}
+
+.subtext{
+    font-size: 2em;
+}
