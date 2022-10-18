@@ -1,6 +1,19 @@
+/* GENERAL */
+
 body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 8em;
+    margin: 0;
+}
+
+h2{
+    color: rgb(180, 0, 0);
+    font-size: 5em;
 }
 
 /* SECTIONS */
@@ -18,6 +31,15 @@ body{
     align-items: center;
 }
 
+#menu{
+    background: url(./img/background.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* NAVBAR */
 
@@ -62,7 +84,7 @@ nav a{
     cursor: pointer;
     padding: 10px !important;
     border-radius: 10px; 
-    border: 2px solid transparent;
+    border: 2px solid black /* transparent */;
 }
 
 #telephone-button:hover{
@@ -70,6 +92,7 @@ nav a{
     background: rgb(35, 184, 47);
     transition: all .8s ease;
     border: 2px solid white; 
+    text-decoration: none !important;
 }
 
 #tel-logo{
@@ -87,22 +110,11 @@ nav a{
     padding-top: 100px;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 8em;
-    margin: 0;
-}
-
 .subtext{
     font-size: 2em;
 }
 
 /* HOW TO ORDER */
-
-#order h2{
-    color: rgb(180, 0, 0);
-    font-size: 5em;
-}
 
 #instructions{
     width: 100%;
@@ -121,4 +133,23 @@ h1{
     font-family: 'Economica', sans-serif;
     font-weight: bold;
     font-size: 3.5em;
+}
+
+/* MENU */
+
+#menu div{
+    display:flex;
+}
+
+table{
+    border-spacing: 63px;
+}
+
+th{
+    font-family: 'Economica', sans-serif;
+    font-weight: bold; 
+}
+
+tr{
+    font-family: 'Raleway', sans-serif;
 }
