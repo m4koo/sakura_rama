@@ -112,6 +112,7 @@ nav a{
 
 .subtext{
     font-size: 2em;
+    animation: fadeIn 8s;
 }
 
 /* HOW TO ORDER */
