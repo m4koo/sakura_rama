@@ -140,17 +140,30 @@ nav a{
 
 #menu div{
     display:flex;
+    justify-content: space-between;
+    max-height: 350px;
+    margin-bottom: 100px;
+    width: 950px;
+}
+
+#menu div img{
+    width: 350px;
+    object-fit: cover;
 }
 
 table{
-    border-spacing: 63px;
+    border-spacing: 30px;
 }
 
 th{
     font-family: 'Economica', sans-serif;
     font-weight: bold; 
+    font-size: 60px;
+    color: black;
 }
 
 tr{
     font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    color: rgb(90, 85, 85);
 }
