@@ -96,7 +96,6 @@ nav a{
     justify-content: center;
     align-items: center;
     background: rgb(180, 0, 0);
-    /* padding-right: 0 !important; */
     cursor: pointer;
     padding: 10px !important;
     border-radius: 10px; 
@@ -184,6 +183,7 @@ tr{
     font-size: 32px;
     color: rgb(90, 85, 85);
 }
+
 
 /* LOCATION */
 
