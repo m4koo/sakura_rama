@@ -221,3 +221,7 @@ footer{
 #icons-right img{
     padding-left: 2rem;
 }
+
+#icons-right{
+    cursor: pointer;
+}
