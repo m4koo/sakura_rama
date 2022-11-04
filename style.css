@@ -366,4 +366,12 @@ footer{
     .subtext{
         font-size: .8em;
     }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    #logo-left img{
+        width: 280px;
+    }
 }
