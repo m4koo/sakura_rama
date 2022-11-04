@@ -257,6 +257,11 @@ footer{
         width: unset;
     }
 
+    #menu div img{
+        width: 300px;
+    }
+
+
     #menu div:nth-child(3){
         flex-direction: column-reverse;
     }
