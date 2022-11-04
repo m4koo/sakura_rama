@@ -174,8 +174,12 @@ table{
 th{
     font-family: 'Economica', sans-serif;
     font-weight: bold; 
-    font-size: 60px;
+    font-size: 2em;
     color: black;
+}
+
+#mobile-th{
+    display: none;
 }
 
 tr{
@@ -256,18 +260,33 @@ footer{
     #menu div:nth-child(3){
         flex-direction: column-reverse;
     }
+
+    #desk-th{
+        display: none;
+    }
+
+    #mobile-th{
+        display:table-cell
+    }
 }
 
 @media (max-width: 800px){
+    h2{
+        font-size: 4em;
+    }
     footer{
         flex-direction: column-reverse;
     }
     #icons-right{
         margin-bottom: 16px;
     }
+
+    #location span{
+        font-size: 1.5em;
+    }
 }
 
-@media (max-width: 425px){
+@media (max-width: 525px){
 
     nav{
         padding-right: 40px;
@@ -292,6 +311,10 @@ footer{
 
     #instructions div img{
         margin-top: 56px;
+    }
+
+    th{
+        font-size: 1.5em;
     }
 
 }
