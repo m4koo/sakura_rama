@@ -239,16 +239,41 @@ footer{
         display: none;
     }
 
+    #sakura-logo{
+        height: 50px;
+        width: 50px;
+    }
+
     h1{
         text-align: center;
+        font-size: 4em;
+    }
+
+    .subtext{
+        font-size: 1em;
     }
     
     h2{
         text-align: center;
+        font-size: 4em;
     }
 
     #instructions{
         flex-direction: column;
+    }
+
+    #instructions div p{
+        margin-top: 0;
+        font-size: 2em;
+    }
+
+    #instructions div img{
+        margin-top: 56px;
+        width: 120px;
+    }
+
+    .first-order-icon{
+        margin-top: 0 !important;
     }
 
     #menu div{
@@ -261,7 +286,6 @@ footer{
         width: 300px;
     }
 
-
     #menu div:nth-child(3){
         flex-direction: column-reverse;
     }
@@ -273,6 +297,7 @@ footer{
     #mobile-th{
         display:table-cell
     }
+
 }
 
 @media (max-width: 800px){
@@ -299,27 +324,24 @@ footer{
     }
 
     h1{
-        font-size: 4em;
+        font-size: 3em;
     }
 
-    .subtext{
-        font-size: 1em;
-    }
-
-    #order h2{
-        margin-bottom: 0;
-    }
-
-    #instructions div p{
-        margin-top: 0;
-    }
-
-    #instructions div img{
-        margin-top: 56px;
+    h2{
+        /* margin-bottom: 0; */
+        font-size: 3em;
     }
 
     th{
         font-size: 1.5em;
+    }
+
+    #location span{
+        font-size: 1em;
+    }
+
+    #location span img{
+        height: 20px;
     }
 
     #icons-right img{
@@ -332,5 +354,16 @@ footer{
         display: flex;
         justify-content: space-evenly;
         width: -webkit-fill-available;
+    }
+
+
+}
+
+@media (max-width: 425px){
+    h1{
+        font-size: 2em;
+    }
+    .subtext{
+        font-size: .8em;
     }
 }
