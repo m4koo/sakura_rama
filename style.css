@@ -157,7 +157,7 @@ nav a{
 #menu div{
     display:flex;
     justify-content: space-between;
-    max-height: 350px;
+    /* max-height: 350px; */
     margin-bottom: 65px;
     width: 950px;
 }
@@ -224,4 +224,88 @@ footer{
 
 #icons-right{
     cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 1000px){
+    #links a:not(:last-child){
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    h2{
+        text-align: center;
+    }
+
+    #instructions{
+        flex-direction: column;
+    }
+
+    #menu div{
+        flex-direction: column;
+        align-items: center;
+        width: unset;
+    }
+
+    #menu div:nth-child(3){
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 800px){
+    footer{
+        flex-direction: column-reverse;
+    }
+    #icons-right{
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 425px){
+
+    nav{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    h1{
+        font-size: 4em;
+    }
+
+    .subtext{
+        font-size: 1em;
+    }
+
+    #order h2{
+        margin-bottom: 0;
+    }
+
+    #instructions div p{
+        margin-top: 0;
+    }
+
+    #instructions div img{
+        margin-top: 56px;
+    }
+
+}
+
+@media (max-width: 375px){
+    #icons-right img{
+        height: 65px;
+        object-fit: contain;
+        padding-left: 0;
+    }
+
+    #icons-right{
+        display: flex;
+        justify-content: space-evenly;
+        width: -webkit-fill-available;
+    }
 }
